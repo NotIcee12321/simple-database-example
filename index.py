@@ -1,6 +1,6 @@
 def save():
     name = input("Enter your name: ")
-    file = open("db.txt","w")
+    file = open("db.txt","a")
     file.write(name)
     file.close()
 
